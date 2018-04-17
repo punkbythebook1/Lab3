@@ -17,7 +17,7 @@ int main(int argc, char** args)
       if (child_pid == 0) {
         // child process
         printf("start child\n");
-        execvp("./out",args);
+        execvp("./sequential_min_max",args);
         printf("stop child\n");
         }
 
